@@ -1,17 +1,8 @@
 ---
 application:
   name: "matomo"
-  project: "project"
+  project: "matomo"
   organization: "QoveryCommunity"
-  storage:
-  - name: "mainimage"
-    size: "10"
-    type: "fast_ssd"
-    mount_point: "/mnt/mainimage"
-databases:
-- type: "MYSQL"
-  name: "matomo-mysql"
-  version: "8"
 routers:
 - name: "main-matomo"
   routes:
